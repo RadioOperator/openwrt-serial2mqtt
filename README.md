@@ -12,7 +12,7 @@ https://github.com/vortex314/serial2mqtt
 
 And deleted some unnecessary files.
 
-##Installation and compile:
+## Installation and compile:
 1. setup your openwrt build environments, make sure it can build a firmware for your equipments.
 
 2. open a Terminal in the [openwrt-root/package/] directory, and clone my repo:
