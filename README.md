@@ -8,9 +8,13 @@ Compile passed but not tested, just for reference.
 The source code copied from the following site (before 2021-09-06, not included later updated):
 
 https://github.com/halfbakery/serial2mqtt-openwrt
+
 https://github.com/eclipse/paho.mqtt.c
+
 https://github.com/bblanchon/ArduinoJson
+
 https://github.com/vortex314/Common
+
 https://github.com/vortex314/serial2mqtt
 
 And deleted some unnecessary files.
