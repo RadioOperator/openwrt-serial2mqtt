@@ -1,0 +1,24 @@
+{
+    "mqtt": {
+        "connection": "tcp://test.mosquitto.org:1883"
+    },
+    "serial": {
+        "baudrate": 9600,
+        "ports": [
+            "/dev/ttyS0"
+        ],
+        "protocol": "jsonArray",
+        "reconnectInterval": 1000,
+        "idleTimeout": 60000
+    },
+    "log": {
+        "protocol": true,
+        "debug": true,
+        "useColors": true,
+        "mqtt": false,
+        "program": false,
+        "level": "I",
+        "file": "log.serial2mqtt.",
+        "console": false
+    }
+}

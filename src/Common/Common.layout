@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src/CborQueue.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2483" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="src/SlipStream.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2271" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="src/EventBus.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6343" topLine="198" />
+		</Cursor>
+	</File>
+	<File name="src/Bytes.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2132" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="src/Str.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5016" topLine="257" />
+		</Cursor>
+	</File>
+	<File name="src/Json.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1694" topLine="83" />
+		</Cursor>
+	</File>
+	<File name="src/jsmn.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6795" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="inc/Str.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1646" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="inc/jsmn.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="470" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="inc/Json.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="290" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="src/Cbor.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12524" topLine="673" />
+		</Cursor>
+	</File>
+	<File name="inc/Cbor.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="941" topLine="85" />
+		</Cursor>
+	</File>
+	<File name="inc/EventBus.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4020" topLine="112" />
+		</Cursor>
+	</File>
+	<File name="src/Msg.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2153" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="src/Actor.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1131" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="inc/Actor.h" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3268" topLine="94" />
+		</Cursor>
+	</File>
+	<File name="inc/Bytes.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="838" topLine="25" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

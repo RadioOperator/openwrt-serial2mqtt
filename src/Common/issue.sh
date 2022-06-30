@@ -1,0 +1,20 @@
+xtensa-esp32-elf-c++ -std=gnu++11 -Og -ggdb -Wno-frame-address  \
+-ffunction-sections -fdata-sections -fstrict-volatile-bitfields \
+-mlongcalls -nostdlib -Wall -Werror=all -Wno-error=unused-function \
+-Wno-error=unused-but-set-variable -Wno-error=unused-variable \
+-Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter \
+-Wno-sign-compare  \
+-DESP32_IDF=1  \
+-I../Common -I/home/lieven/workspace/ArduinoJson/src \
+-I /home/lieven/esp/esp-idf/components/freertos/include/freertos \
+-fno-rtti -ffunction-sections -fdata-sections -fno-exceptions \
+-fno-rtti -DESP_PLATFORM -D IDF_VER=\"v4.2-dev-792-g6330b3345-dirty\" \
+ -MMD -MP -DESP32_IDF=1 -DAAAAA=BBBBBB  \
+   -I/home/lieven/esp/esp-idf/components/spi_flash/sim/stubs/esp32/include/ \
+    -I/home/lieven/esp/esp-idf/components/nvs_flash/include \
+    -I/home/lieven/esp/esp-idf/components/xtensa/include/ \
+    -I/home/lieven/esp/esp-idf/components/nvs_flash/test_nvs_host/ \
+    -I/home/lieven/esp/esp-idf/components/esp_common/include/ \
+    -I/home/lieven/esp/esp-idf/components/spi_flash/include/ \
+    -I/home/lieven/esp/esp-idf/components/soc/include/ \
+    -I/home/lieven/workspace/ArduinoJson/src   -I . -c Config.cpp -o Config.o

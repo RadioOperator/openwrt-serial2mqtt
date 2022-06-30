@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Common" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Common" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="inc" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Common" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="inc/Actor.h" />
+		<Unit filename="inc/Base64.h" />
+		<Unit filename="inc/BipBuffer.h" />
+		<Unit filename="inc/Bits.h" />
+		<Unit filename="inc/Board.h" />
+		<Unit filename="inc/BufferedByteStream.h" />
+		<Unit filename="inc/ByteStream.h" />
+		<Unit filename="inc/Bytes.h" />
+		<Unit filename="inc/Cbor.h" />
+		<Unit filename="inc/CborQueue.h" />
+		<Unit filename="inc/CircBuf.h" />
+		<Unit filename="inc/Erc.h" />
+		<Unit filename="inc/EventBus.h" />
+		<Unit filename="inc/EventSource.h" />
+		<Unit filename="inc/Flags.h" />
+		<Unit filename="inc/Handler.h" />
+		<Unit filename="inc/Interface.h" />
+		<Unit filename="inc/Json.h" />
+		<Unit filename="inc/Link.h" />
+		<Unit filename="inc/Log.h" />
+		<Unit filename="inc/Logger.h" />
+		<Unit filename="inc/Msg.h" />
+		<Unit filename="inc/Msgpack.h" />
+		<Unit filename="inc/Mutex.h" />
+		<Unit filename="inc/Node.h" />
+		<Unit filename="inc/Packer.h" />
+		<Unit filename="inc/Pool.h" />
+		<Unit filename="inc/Prop.h" />
+		<Unit filename="inc/Property.h" />
+		<Unit filename="inc/ProtoThread.h" />
+		<Unit filename="inc/QueueTemplate.h" />
+		<Unit filename="inc/Signal.h" />
+		<Unit filename="inc/Slip.h" />
+		<Unit filename="inc/SlipStream.h" />
+		<Unit filename="inc/Str.h" />
+		<Unit filename="inc/Strpack.h" />
+		<Unit filename="inc/Sys.h" />
+		<Unit filename="inc/Thread.h" />
+		<Unit filename="inc/Timer.h" />
+		<Unit filename="inc/Uart.h" />
+		<Unit filename="inc/jsmn.h" />
+		<Unit filename="inc/lc-addrlabels.h" />
+		<Unit filename="inc/lc-switch.h" />
+		<Unit filename="inc/lc.h" />
+		<Unit filename="inc/platform.h" />
+		<Unit filename="inc/printf.h" />
+		<Unit filename="inc/pt-sem.h" />
+		<Unit filename="inc/pt.h" />
+		<Unit filename="src/Actor.cpp" />
+		<Unit filename="src/Base64.cpp" />
+		<Unit filename="src/BipBuffer.cpp" />
+		<Unit filename="src/BufferedByteStream.cpp" />
+		<Unit filename="src/Bytes.cpp" />
+		<Unit filename="src/Cbor.cpp" />
+		<Unit filename="src/CborQueue.cpp" />
+		<Unit filename="src/CircBuf.cpp" />
+		<Unit filename="src/EventBus.cpp" />
+		<Unit filename="src/EventSource.cpp" />
+		<Unit filename="src/Handler.cpp" />
+		<Unit filename="src/Json.cpp" />
+		<Unit filename="src/Link.cpp" />
+		<Unit filename="src/Log.cpp" />
+		<Unit filename="src/Logger.cpp" />
+		<Unit filename="src/Msg.cpp" />
+		<Unit filename="src/Msgpack.cpp" />
+		<Unit filename="src/Node.cpp" />
+		<Unit filename="src/PIC32_stubs.cpp" />
+		<Unit filename="src/STM32_stubs.cpp" />
+		<Unit filename="src/Slip.cpp" />
+		<Unit filename="src/SlipStream.cpp" />
+		<Unit filename="src/Str.cpp" />
+		<Unit filename="src/Strpack.cpp" />
+		<Unit filename="src/Sys.cpp" />
+		<Unit filename="src/jsmn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/printf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
